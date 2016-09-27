@@ -2,6 +2,8 @@ menu:
   phpbase: PHP基础
   case: 案例
   ask: 问答
+  yaf: Yaf
+  yii2: Yii2
 
 index:
   get_started: 开始使用
@@ -18,7 +20,8 @@ sidebar:
   phpbase:
     php_string: 字符串
     overview: 概述
-    constant: PHP常量
+    php_array: PHP数组
+    shuffle: 随机函数
   case:
     base_case: 基础案例
     lnmp_install: LAMP环境安装详细教程

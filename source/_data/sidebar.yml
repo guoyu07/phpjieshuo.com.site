@@ -1,7 +1,8 @@
 phpbase:
   php_string:
     overview: index.html
-	constant: constant.html
+  php_array:
+    shuffle: shuffle.html
 
 case:
   base_case:
