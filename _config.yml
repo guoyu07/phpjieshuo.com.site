@@ -1,0 +1,44 @@
+title: PHP解说
+subtitle:
+description: PHP解说,用技术布道。
+author: winerQin
+language: zh-cn
+timezone: PRC
+
+url: http://phpjieshuo.com
+root: /
+permalink: news/:year/:month/:day/:title/
+
+archive_dir: news
+code_dir: downloads/code
+
+
+# Writing
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+
+post_asset_folder: true
+
+highlight:
+  enable: true
+  line_number: false
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 0
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: navy
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:winerqin/winerqin.github.io.git
