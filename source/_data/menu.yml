@@ -1,4 +1,5 @@
-docs: /docs/
-api: /api/
-news: /news/
-plugins: /plugins/
+phpbase: /phpbase/
+case: /case/
+ask: /ask/
+yaf: /yaf/
+yii2: /yii2/

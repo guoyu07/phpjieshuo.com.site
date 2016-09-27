@@ -1,9 +1,7 @@
 menu:
-  docs: 文档
-  api: API
-  news: 新闻
-  plugins: 插件
-  search: 搜索
+  phpbase: PHP基础
+  case: 案例
+  ask: 问答
 
 index:
   get_started: 开始使用
@@ -17,52 +15,53 @@ page:
   last_updated: 上次更新：%s
 
 sidebar:
-  docs:
-    getting_started: 开始使用
+  phpbase:
+    php_string:
     overview: 概述
-    setup: 建站
-    configuration: 配置
-    commands: 命令
-    migration: 迁移
-    basic_usage: 基本操作
-    writing: 写作
-    front_matter: Front-matter
-    tag_plugins: 标签插件
-    asset_folders: 资源文件夹
-    data_files: 数据文件夹
-    server: 服务器
-    generating: 生成器
-    deployment: 部署
-    customization: 自定义
-    permalinks: 永久链接
-    themes: 主题
-    structure: 结构
-    templates: 模版
-    variables: 变量
-    helpers: 辅助函数
-    internationalization: 国际化 (i18n)
-    plugins: 插件
-    miscellaneous: 其他
-    troubleshooting: 问题解答
-    contributing: 贡献
-  api:
-    core: 核心
+    constant: PHP常量
+  case:
+    base_case: 基础案例
+    lnmp_install: LAMP环境安装详细教程
+    psr_standard: PHP代码规范
+    create_unique: PHP唯一ID发号器
+    php_cli: PHP命令行操作
+    session_distributed: SESSION分布式设计
+    short_url: PHP短域名
+    man_machine: 人机验证码原理
+    restful: PHP与 RESTful
+    auth2: PHP与 Auth2.0
+    extensive_domain_name: 域名泛解析
+    url_rewriter: 网站伪静态
+    vhosts: 虚拟主机配置
+    composer: Composer工具
+    git: Git与 GitHub
+    alipay_pay: 支付宝支付
+    wechat_pay: 微信支付
+    php_gearman: PHP与Gearman
+    concurrent_cache: 缓存分布式下问题思考
+    phpunit: PHPUnit单元测试
+    safe_csrf: CSRF安全
+    safe_xss: CSRF安全
+    elasticsearch: Elasticsearch搜索引擎
+    travis_ci: Travis-ci工具
+    message_queue: 消息队列 MQ
+    qq_login: 模板登录QQ空间
+    os_case: 开源案例
+    phpmailer: PHPmailer发送邮件
+    phpqrcode: PHPQRcode生成二维码
+    phpexcel: PHP导入导出 Excel
+    pinpin: 汉字转拼音
+  yaf:
+    basic: 基础
     overview: 概述
-    events: 事件
-    locals: 本地变量
-    router: 路由
-    box: 盒(Box)
-    rendering: 渲染
-    posts: 文章
-    scaffolds: 模版 (Scaffold)
-    themes: 主题
-    extensions: 扩展
-    console: 控制台 (Console)
-    deployer: 部署器 (Deployer)
-    filter: 过滤器 (Filter)
-    generator: 生成器 (Generator)
-    helper: 辅助函数 (Helper)
-    migrator: 迁移器 (Migrator)
-    processor: 处理器 (Processor)
-    renderer: 渲染引擎 (Renderer)
-    tag: 标签 (Tag)
+    advanced: 高级
+    yaf_cache: Yaf与缓存
+    yaf_session: Yaf与SESSION
+    yaf_db: Yaf 与数据库
+  yii2:
+    basic: 基础
+    overview: 概述
+    advanced: 高级
+    yii2_cache: YII2与缓存
+    yii2_session: Yii2与SESSION
+    yii2_db: YII2与数据库

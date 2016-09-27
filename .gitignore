@@ -3,3 +3,6 @@ node_modules/
 db.json
 public/
 .deploy*/
+/.project
+/.settings
+/.buildpath
