@@ -16,7 +16,7 @@ page:
 
 sidebar:
   phpbase:
-    php_string:
+    php_string: 字符串
     overview: 概述
     constant: PHP常量
   case:
